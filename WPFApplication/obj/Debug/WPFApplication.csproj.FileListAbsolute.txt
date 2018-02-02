@@ -1,0 +1,17 @@
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\bin\Debug\WPFApplication.exe.config
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\bin\Debug\WPFApplication.exe
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\bin\Debug\WPFApplication.pdb
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\WPFApplication.csprojResolveAssemblyReference.cache
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\MainWindow.g.cs
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\App.g.cs
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\WPFApplication_MarkupCompile.cache
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\WPFApplication_MarkupCompile.lref
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\MainWindow.baml
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\WPFApplication.g.resources
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\WPFApplication.Properties.Resources.resources
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\WPFApplication.csproj.GenerateResource.Cache
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\WPFApplication.csproj.CoreCompileInputs.cache
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\WPFApplication.exe
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\WPFApplication.pdb
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\map.g.cs
+C:\Users\akram\source\repos\WPFApplication\WPFApplication\obj\Debug\map.baml
