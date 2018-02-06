@@ -25,7 +25,7 @@ namespace WPFApplication
 
             InitializeComponent();
             StringBuilder add = new StringBuilder("http://maps.google.com/maps?q=");
-            add.Append("L5m0c5");
+            add.Append("L4L8H1"); 
 
             mapwindow.Navigate(add.ToString());
         }

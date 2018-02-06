@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MySql.Data.MySqlClient;
+
 
 
 namespace WPFApplication
@@ -21,6 +23,9 @@ namespace WPFApplication
     /// </summary>
     public partial class MainWindow : Window
     {
+        MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=password");
+
+
         public String address;
         public MainWindow()
         {
@@ -30,6 +35,33 @@ namespace WPFApplication
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
             
+            string fname = FirstName.Text;
+            string lname = LastName.Text;
+            string pcode = postalcode.Text;
+
+            string insertQuery = "INSERT INTO test_db.users(fname,lname,postalcode) VALUES('" + fname + "', '" + lname + "', '" + pcode  +"')";
+            connection.Open();
+
+
+            MySqlCommand command = new MySqlCommand(insertQuery, connection);
+
+            try
+            {
+                if (command.ExecuteNonQuery() == 1)
+                {
+                    MessageBox.Show(" Success! Your Data Inserted.");
+                }
+                else
+                {
+                    MessageBox.Show("Data Not Inserted");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            connection.Close();
         }
 
         private void Confirm_Click(object sender, RoutedEventArgs e)
